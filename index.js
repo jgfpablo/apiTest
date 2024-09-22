@@ -1,6 +1,6 @@
 const express = require("express"); // Importar Express
 const app = express(); // Crear una instancia de Express
-const port = process.env.PORT || 8080; // Asignar el puerto
+const port = process.env.PORT || 3000; // Asignar el puerto
 
 // Ruta básica que devuelve "hola"
 app.get("/", (req, res) => {
@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 
 // Iniciar el servidor
 app.listen(port, () => {
-    console.log(`apitest-production-cd29.up.railway.app:${port}`);
+    console.log(`Servidor corriendo en http://localhost:${port}`);
 });
 
 //COSAS
