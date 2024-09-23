@@ -8,7 +8,15 @@ app.use(cors());
 
 // Ruta básica que devuelve "buenas tardes2"
 app.get("/", (req, res) => {
-    res.send("buenas tardes3");
+    res.json({
+        message:
+            "IANNNN LPM. MANANA CUANDO YO TE DIGA QUE TENGO CURIOSIDAD POR VER COMO HACES UN POWERPOINT DE 500 DIAPOSITIVAS ESPERO QUE LO HAGAS",
+        status: "success",
+        data: {
+            nombre: "Juan",
+            edad: 30,
+        },
+    });
 });
 
 // Iniciar el servidor
