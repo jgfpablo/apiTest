@@ -12,10 +12,88 @@ app.get("/", (req, res) => {
         message:
             "IANNNN LPM. MANANA CUANDO YO TE DIGA QUE TENGO CURIOSIDAD POR VER COMO HACES UN POWERPOINT DE 500 DIAPOSITIVAS ESPERO QUE LO HAGAS",
         status: "success",
-        data: {
-            nombre: "Juan",
-            edad: 30,
-        },
+        data: [
+            {
+                nombre: "pikachu",
+                peso: 30,
+                tiempo: 0,
+                descripcion:
+                    "Un Pokémon de tipo eléctrico conocido por sus ataques de rayos.",
+                colores: ["rojo", "verde", "azul"],
+            },
+            {
+                nombre: "bulbasaur",
+                peso: 40,
+                tiempo: 10,
+                descripcion:
+                    "Un Pokémon planta/veneno con una semilla en su espalda.",
+                colores: ["rojo", "verde", "azul"],
+            },
+            {
+                nombre: "charmander",
+                peso: 25,
+                tiempo: 20,
+                descripcion:
+                    "Un Pokémon de tipo fuego con una llama en su cola.",
+                colores: ["rojo", "verde", "azul"],
+            },
+            {
+                nombre: "squirtle",
+                peso: 35,
+                tiempo: 30,
+                descripcion:
+                    "Un Pokémon de tipo agua que lleva una concha en la espalda.",
+                colores: ["rojo", "verde", "azul"],
+            },
+            {
+                nombre: "jigglypuff",
+                peso: 20,
+                tiempo: 40,
+                descripcion:
+                    "Un Pokémon de tipo normal/hada conocido por sus habilidades para dormir a sus enemigos.",
+                colores: ["rojo", "verde", "azul"],
+            },
+            {
+                nombre: "meowth",
+                peso: 28,
+                tiempo: 50,
+                descripcion:
+                    "Un Pokémon de tipo normal con habilidades para encontrar objetos valiosos.",
+                colores: ["rojo", "verde", "azul"],
+            },
+            {
+                nombre: "psyduck",
+                peso: 33,
+                tiempo: 60,
+                descripcion:
+                    "Un Pokémon de tipo agua que sufre de constantes dolores de cabeza.",
+                colores: ["rojo", "verde", "azul"],
+            },
+            {
+                nombre: "snorlax",
+                peso: 100,
+                tiempo: 70,
+                descripcion:
+                    "Un Pokémon enorme y perezoso conocido por dormir casi todo el día.",
+                colores: ["rojo", "verde", "azul"],
+            },
+            {
+                nombre: "togepi",
+                peso: 15,
+                tiempo: 80,
+                descripcion:
+                    "Un Pokémon de tipo hada que trae felicidad a los que lo rodean.",
+                colores: ["rojo", "verde", "azul"],
+            },
+            {
+                nombre: "eevee",
+                peso: 29,
+                tiempo: 90,
+                descripcion:
+                    "Un Pokémon con múltiples evoluciones posibles según las condiciones.",
+                colores: ["rojo", "verde", "azul"],
+            },
+        ],
     });
 });
 
