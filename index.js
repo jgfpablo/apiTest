@@ -8,7 +8,7 @@ app.use(cors());
 
 // Ruta básica que devuelve "buenas tardes2"
 app.get("/", (req, res) => {
-    res.send("buenas tardes2");
+    res.send("buenas tardes3");
 });
 
 // Iniciar el servidor
