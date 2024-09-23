@@ -4,7 +4,7 @@ const port = process.env.PORT || 8080; // Asignar el puerto
 
 // Ruta básica que devuelve "hola"
 app.get("/", (req, res) => {
-    res.send("buenas tardes");
+    res.send("buenas tardes2");
 });
 
 // Iniciar el servidor
