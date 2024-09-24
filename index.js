@@ -15,8 +15,8 @@ app.get("/products", (req, res) => {
         data: [
             {
                 nombre: "pikachu",
-                peso: 30,
-                tiempo: 0,
+                peso: 12.05,
+                tiempo: 66,
                 descripcion:
                     "Un Pokémon de tipo eléctrico conocido por sus ataques de rayos.",
                 colores: ["rojo", "verde", "azul"],
