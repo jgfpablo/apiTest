@@ -105,13 +105,14 @@ app.get("/", (req, res) => {
         data: [
             {
                 consumoKw: 360,
-                costImpr: "500.000",
-                vidaUtil: "10.000",
+                costImpr: 500000,
+                vidaUtil: 10000,
                 kwH: 30,
                 costoTiempoHombre: 0,
                 merma: 5,
                 riesgo: 0,
                 ganan: 300,
+                filamento: 17000,
             },
         ],
     });
