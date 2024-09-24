@@ -7,7 +7,7 @@ const port = process.env.PORT || 8080; // Asignar el puerto
 app.use(cors());
 
 // Ruta básica que devuelve "buenas tardes2"
-app.get("/", (req, res) => {
+app.get("/products", (req, res) => {
     res.json({
         message:
             "IANNNN LPM. MANANA CUANDO YO TE DIGA QUE TENGO CURIOSIDAD POR VER COMO HACES UN POWERPOINT DE 500 DIAPOSITIVAS ESPERO QUE LO HAGAS",
@@ -94,6 +94,24 @@ app.get("/", (req, res) => {
                 colores: ["rojo", "verde", "azul"],
             },
         ],
+    });
+});
+
+//------------------------------------------------
+app.get("/", (req, res) => {
+    res.json({
+        message: "Simplemente Cosas",
+        status: "success",
+        data: {
+            consumoKw: 360,
+            costImpr: "500.000",
+            vidaUtil: "10.000",
+            kwH: 30,
+            costoTiempoHombre: 0,
+            merma: 5,
+            riesgo: 0,
+            ganan: 300,
+        },
     });
 });
 
