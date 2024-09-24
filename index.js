@@ -102,16 +102,18 @@ app.get("/", (req, res) => {
     res.json({
         message: "Simplemente Cosas",
         status: "success",
-        data: {
-            consumoKw: 360,
-            costImpr: "500.000",
-            vidaUtil: "10.000",
-            kwH: 30,
-            costoTiempoHombre: 0,
-            merma: 5,
-            riesgo: 0,
-            ganan: 300,
-        },
+        data: [
+            {
+                consumoKw: 360,
+                costImpr: "500.000",
+                vidaUtil: "10.000",
+                kwH: 30,
+                costoTiempoHombre: 0,
+                merma: 5,
+                riesgo: 0,
+                ganan: 300,
+            },
+        ],
     });
 });
 
