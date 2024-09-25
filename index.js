@@ -106,7 +106,7 @@ app.get("/", (req, res) => {
             consumoKw: 360,
             costImpr: 500000,
             vidaUtil: 10000,
-            kwH: 30,
+            costokwH: 30,
             costoTiempoHombre: 0,
             merma: 5,
             riesgo: 0,
