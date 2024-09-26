@@ -14,6 +14,7 @@ app.get("/products", (req, res) => {
         status: "success",
         data: [
             {
+                id: 1,
                 nombre: "pikachu",
                 peso: 12.05,
                 tiempo: 66,
@@ -24,6 +25,7 @@ app.get("/products", (req, res) => {
                 precio: 200,
             },
             {
+                id: 2,
                 nombre: "bulbasaur",
                 peso: 40,
                 tiempo: 10,
