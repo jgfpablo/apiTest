@@ -20,15 +20,19 @@ app.get("/products", (req, res) => {
                 descripcion:
                     "Un Pokémon de tipo eléctrico conocido por sus ataques de rayos.",
                 colores: ["rojo", "verde", "azul"],
+                oferta: "si",
+                precio: 200,
             },
-            // {
-            //     nombre: "bulbasaur",
-            //     peso: 40,
-            //     tiempo: 10,
-            //     descripcion:
-            //         "Un Pokémon planta/veneno con una semilla en su espalda.",
-            //     colores: ["rojo", "verde", "azul"],
-            // },
+            {
+                nombre: "bulbasaur",
+                peso: 40,
+                tiempo: 10,
+                descripcion:
+                    "Un Pokémon planta/veneno con una semilla en su espalda.",
+                colores: ["rojo", "verde", "azul"],
+                oferta: "no",
+                precio: 0,
+            },
             // {
             //     nombre: "charmander",
             //     peso: 25,
