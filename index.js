@@ -30,27 +30,20 @@ allProducts = [
     },
 ];
 
-// Obtener los parámetros de consulta (start y limit) de la URL
-const start = parseInt(req.query.start) || 0; // Índice inicial (default 0)
-const limit = parseInt(req.query.limit) || 10; // Límite de productos (default 10)
-
-// Obtener una porción de los productos según los parámetros
-const paginatedProducts = allProducts.slice(start, start + limit);
-
+// Ruta para obtener productos sin paginación
 app.get("/products", (req, res) => {
-    res.json({
-        message: "All Products",
-        status: "success",
-        data: allProducts,
-    });
-});
+    // Obtener los parámetros de consulta (start y limit) de la URL
+    const start = parseInt(req.query.start) || 0; // Índice inicial (default 0)
+    const limit = parseInt(req.query.limit) || allProducts.length; // Límite de productos (default a todos)
 
-//------------------------------------------------
-app.get(`/products?start=${start}&limit=${limit}`, (req, res, start, limit) => {
+    // Obtener una porción de los productos según los parámetros
+    const paginatedProducts = allProducts.slice(start, start + limit);
+
     res.json({
-        message: "products paginate",
+        message: "Productos paginados",
         status: "success",
-        data: paginatedProducts,
+        total: allProducts.length, // Número total de productos
+        data: paginatedProducts, // Productos paginados
     });
 });
 
