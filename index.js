@@ -429,7 +429,7 @@ app.get("/products/", (req, res) => {
     // Obtener una porción de los productos según los parámetros
 
     const allProductCategory = allProducts.filter(
-        (product) => product.categoria == req.query.category
+        (product) => product.categoria === req.query.category
     );
 
     const paginatedProducts = allProductCategory.slice(start, start + limit);
