@@ -17,7 +17,7 @@ allProducts = [
         colores: ["rojo", "verde", "azul"],
         oferta: "si",
         precio: 200,
-        categoria: "llavero",
+        categoria: "llaveros",
     },
     {
         id: 2,
@@ -28,7 +28,7 @@ allProducts = [
         colores: ["rojo", "verde", "azul"],
         oferta: "no",
         precio: 0,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 3,
@@ -40,7 +40,7 @@ allProducts = [
         colores: ["naranja", "rojo", "amarillo"],
         oferta: "no",
         precio: 150,
-        categoria: "llavero",
+        categoria: "llaveros",
     },
     {
         id: 4,
@@ -52,7 +52,7 @@ allProducts = [
         colores: ["azul", "marrón", "blanco"],
         oferta: "si",
         precio: 180,
-        categoria: "llavero",
+        categoria: "llaveros",
     },
     {
         id: 5,
@@ -64,7 +64,7 @@ allProducts = [
         colores: ["rosa", "blanco", "negro"],
         oferta: "si",
         precio: 130,
-        categoria: "llavero",
+        categoria: "llaveros",
     },
     {
         id: 6,
@@ -76,7 +76,7 @@ allProducts = [
         colores: ["beige", "negro", "marrón"],
         oferta: "no",
         precio: 120,
-        categoria: "iman",
+        categoria: "llaveros",
     },
     {
         id: 7,
@@ -88,7 +88,7 @@ allProducts = [
         colores: ["amarillo", "blanco", "negro"],
         oferta: "si",
         precio: 160,
-        categoria: "iman",
+        categoria: "llaveros",
     },
     {
         id: 8,
@@ -99,7 +99,7 @@ allProducts = [
         colores: ["marrón", "beige", "blanco"],
         oferta: "no",
         precio: 100,
-        categoria: "llavero",
+        categoria: "llaveros",
     },
     {
         id: 9,
@@ -110,7 +110,7 @@ allProducts = [
         colores: ["morado", "blanco", "rosa"],
         oferta: "si",
         precio: 90,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 10,
@@ -121,7 +121,7 @@ allProducts = [
         colores: ["morado", "amarillo", "negro"],
         oferta: "no",
         precio: 110,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 11,
@@ -133,7 +133,7 @@ allProducts = [
         colores: ["amarillo", "negro", "rojo"],
         oferta: "si",
         precio: 200,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 12,
@@ -145,7 +145,7 @@ allProducts = [
         colores: ["amarillo", "marrón", "blanco"],
         oferta: "no",
         precio: 140,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 13,
@@ -156,7 +156,7 @@ allProducts = [
         colores: ["naranja", "rojo", "blanco"],
         oferta: "si",
         precio: 160,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 14,
@@ -168,7 +168,7 @@ allProducts = [
         colores: ["verde", "azul", "blanco"],
         oferta: "no",
         precio: 130,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 15,
@@ -179,7 +179,7 @@ allProducts = [
         colores: ["naranja", "negro", "blanco"],
         oferta: "si",
         precio: 170,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 16,
@@ -190,7 +190,7 @@ allProducts = [
         colores: ["gris", "blanco", "negro"],
         oferta: "no",
         precio: 150,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 17,
@@ -202,7 +202,7 @@ allProducts = [
         colores: ["negro", "morado", "blanco"],
         oferta: "si",
         precio: 140,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 18,
@@ -214,7 +214,7 @@ allProducts = [
         colores: ["gris", "rojo", "azul"],
         oferta: "no",
         precio: 120,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 19,
@@ -225,7 +225,7 @@ allProducts = [
         colores: ["marrón", "blanco", "negro"],
         oferta: "si",
         precio: 150,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 20,
@@ -237,7 +237,7 @@ allProducts = [
         colores: ["blanco", "gris", "azul"],
         oferta: "no",
         precio: 160,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 21,
@@ -248,7 +248,7 @@ allProducts = [
         colores: ["gris", "blanco", "negro"],
         oferta: "si",
         precio: 200,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 22,
@@ -259,7 +259,7 @@ allProducts = [
         colores: ["rojo", "blanco", "negro"],
         oferta: "no",
         precio: 140,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 23,
@@ -270,7 +270,7 @@ allProducts = [
         colores: ["marrón", "blanco", "gris"],
         oferta: "si",
         precio: 150,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 24,
@@ -282,7 +282,7 @@ allProducts = [
         colores: ["marrón", "blanco", "negro"],
         oferta: "no",
         precio: 170,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 25,
@@ -294,7 +294,7 @@ allProducts = [
         colores: ["rosa", "blanco", "rojo"],
         oferta: "si",
         precio: 160,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 26,
@@ -305,7 +305,7 @@ allProducts = [
         colores: ["morado", "amarillo", "blanco"],
         oferta: "no",
         precio: 120,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 27,
@@ -317,7 +317,7 @@ allProducts = [
         colores: ["gris", "blanco", "negro"],
         oferta: "si",
         precio: 180,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 28,
@@ -328,7 +328,7 @@ allProducts = [
         colores: ["verde", "azul", "negro"],
         oferta: "no",
         precio: 150,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 29,
@@ -340,7 +340,7 @@ allProducts = [
         colores: ["marrón", "blanco", "negro"],
         oferta: "si",
         precio: 190,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 30,
@@ -352,7 +352,7 @@ allProducts = [
         colores: ["azul", "blanco", "negro"],
         oferta: "no",
         precio: 110,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 31,
@@ -364,7 +364,7 @@ allProducts = [
         colores: ["blanco", "rojo", "amarillo"],
         oferta: "si",
         precio: 130,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 32,
@@ -375,7 +375,7 @@ allProducts = [
         colores: ["marrón", "amarillo", "blanco"],
         oferta: "no",
         precio: 140,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 33,
@@ -387,7 +387,7 @@ allProducts = [
         colores: ["rosa", "amarillo", "blanco"],
         oferta: "si",
         precio: 170,
-        categoria: "iman",
+        categoria: "imanes",
     },
     {
         id: 34,
@@ -399,7 +399,7 @@ allProducts = [
         colores: ["amarillo", "negro", "rojo"],
         oferta: "no",
         precio: 180,
-        categoria: "iman",
+        categoria: "imanes",
     },
 ];
 
@@ -424,12 +424,12 @@ app.get("/category", (req, res) => {
     // Obtener los parámetros de consulta (start y limit) de la URL
     const start = parseInt(req.query.start) || 0; // Índice inicial (default 0)
     const limit = parseInt(req.query.limit) || allProducts.length; // Límite de productos (default a todos)
-    // const category = req.query.category;
+    const categoryParam = req.query.category;
 
     // Obtener una porción de los productos según los parámetros
 
     const allProductCategory = allProducts.filter(
-        (product) => product.categoria === req.query.category
+        (product) => product.categoria == categoryParam
     );
 
     const paginatedProducts = allProductCategory.slice(start, start + limit);
