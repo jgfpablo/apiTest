@@ -28,7 +28,7 @@ allProducts = [
         colores: ["rojo", "verde", "azul"],
         oferta: "no",
         precio: 0,
-        categoria: "llavero",
+        categoria: "iman",
     },
     {
         id: 3,
@@ -99,7 +99,7 @@ allProducts = [
         colores: ["marrón", "beige", "blanco"],
         oferta: "no",
         precio: 100,
-        categoria: "iman",
+        categoria: "llavero",
     },
     {
         id: 9,
