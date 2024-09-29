@@ -438,7 +438,7 @@ app.get("/products/", (req, res) => {
         message: "Productos paginados",
         status: "success",
         total: allProductCategory.length, // Número total de productos
-        data: paginatedProducts, // Productos paginados
+        data: allProductCategory, // Productos paginados
     });
 });
 
