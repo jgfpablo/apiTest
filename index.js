@@ -420,7 +420,7 @@ app.get("/products", (req, res) => {
 });
 
 // Categoria ---------------------------------
-app.get("category/", (req, res) => {
+app.get("/category", (req, res) => {
     // Obtener los parámetros de consulta (start y limit) de la URL
     const start = parseInt(req.query.start) || 0; // Índice inicial (default 0)
     const limit = parseInt(req.query.limit) || allProducts.length; // Límite de productos (default a todos)
