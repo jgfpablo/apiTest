@@ -403,26 +403,6 @@ allProducts = [
     },
 ];
 
-// Categoria ---------------------------------
-app.get("/products/category", (req, res) => {
-    const category = req.query.category;
-
-    // Obtener una porción de los productos según los parámetros
-
-    const allProductCategory = allProducts.filter(
-        (product) => product.categoria == category
-    );
-
-    // const paginatedProducts = allProductCategory.slice(start, start + limit);
-
-    res.json({
-        message: "Productos paginados",
-        status: "success",
-        total: allProductCategory.length, // Número total de productos
-        data: paginatedProducts, // Productos paginados
-    });
-});
-
 app.get("/products", (req, res) => {
     // Obtener los parámetros de consulta (start y limit) de la URL
     const start = parseInt(req.query.start) || 0; // Índice inicial (default 0)
@@ -435,6 +415,29 @@ app.get("/products", (req, res) => {
         message: "Productos paginados",
         status: "success",
         total: allProducts.length, // Número total de productos
+        data: paginatedProducts, // Productos paginados
+    });
+});
+
+// Categoria ---------------------------------
+app.get("/products/category", (req, res) => {
+    // Obtener los parámetros de consulta (start y limit) de la URL
+    const start = parseInt(req.query.start) || 0; // Índice inicial (default 0)
+    const limit = parseInt(req.query.limit) || allProducts.length; // Límite de productos (default a todos)
+    const category = req.query.category;
+
+    // Obtener una porción de los productos según los parámetros
+
+    const allProductCategory = allProducts.filter(
+        (product) => product.categoria == category
+    );
+
+    const paginatedProducts = allProductCategory.slice(start, start + limit);
+
+    res.json({
+        message: "Productos paginados",
+        status: "success",
+        total: allProductCategory.length, // Número total de productos
         data: paginatedProducts, // Productos paginados
     });
 });
