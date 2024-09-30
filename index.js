@@ -259,7 +259,7 @@ allProducts = [
         colores: ["rojo", "blanco", "negro"],
         oferta: "no",
         precio: 140,
-        categoria: "imanes",
+        categoria: "AdornoParaTortas",
     },
     {
         id: 23,
@@ -270,7 +270,7 @@ allProducts = [
         colores: ["marrón", "blanco", "gris"],
         oferta: "si",
         precio: 150,
-        categoria: "imanes",
+        categoria: "AdornoParaTortas",
     },
     {
         id: 24,
@@ -282,7 +282,7 @@ allProducts = [
         colores: ["marrón", "blanco", "negro"],
         oferta: "no",
         precio: 170,
-        categoria: "imanes",
+        categoria: "AdornoParaTortas",
     },
     {
         id: 25,
@@ -294,7 +294,7 @@ allProducts = [
         colores: ["rosa", "blanco", "rojo"],
         oferta: "si",
         precio: 160,
-        categoria: "imanes",
+        categoria: "AdornoParaTortas",
     },
     {
         id: 26,
@@ -305,7 +305,7 @@ allProducts = [
         colores: ["morado", "amarillo", "blanco"],
         oferta: "no",
         precio: 120,
-        categoria: "imanes",
+        categoria: "AdornoParaTortas",
     },
     {
         id: 27,
@@ -352,7 +352,7 @@ allProducts = [
         colores: ["azul", "blanco", "negro"],
         oferta: "no",
         precio: 110,
-        categoria: "imanes",
+        categoria: "AdornoParaTortas",
     },
     {
         id: 31,
@@ -375,7 +375,7 @@ allProducts = [
         colores: ["marrón", "amarillo", "blanco"],
         oferta: "no",
         precio: 140,
-        categoria: "imanes",
+        categoria: "AdornoParaTortas",
     },
     {
         id: 33,
@@ -387,7 +387,7 @@ allProducts = [
         colores: ["rosa", "amarillo", "blanco"],
         oferta: "si",
         precio: 170,
-        categoria: "imanes",
+        categoria: "AdornoParaTortas",
     },
     {
         id: 34,
