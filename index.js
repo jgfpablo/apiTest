@@ -3,6 +3,9 @@ const cors = require("cors"); // Importar CORS
 const app = express(); // Crear una instancia de Express
 const port = process.env.PORT || 8080; // Asignar el puerto
 
+// Middleware para parsear JSON
+app.use(express.json());
+
 // Habilitar CORS para todas las solicitudes
 app.use(cors());
 
