@@ -461,6 +461,19 @@ app.get("/", (req, res) => {
     });
 });
 
+// Agregar un nuevo producto (POST)
+app.post("/products", (req, res) => {
+    const newProduct = req.body; // Obtener el nuevo producto del cuerpo de la solicitud
+    newProduct.id = allProducts.length + 1; // Asignar un nuevo ID al producto
+    allProducts.push(newProduct); // Añadir el nuevo producto al array
+
+    res.json({
+        message: "Producto agregado",
+        status: "success",
+        data: newProduct,
+    });
+});
+
 app.listen(port, () => {
     // console.log(`Servidor corriendo en http://localhost:${port}`);
 });
