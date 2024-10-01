@@ -21,6 +21,7 @@ allProducts = [
         oferta: "si",
         precio: 200,
         categoria: "llaveros",
+        imagenes: [],
     },
     {
         id: 2,
@@ -32,6 +33,7 @@ allProducts = [
         oferta: "no",
         precio: 0,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 3,
@@ -44,6 +46,7 @@ allProducts = [
         oferta: "no",
         precio: 150,
         categoria: "llaveros",
+        imagenes: [],
     },
     {
         id: 4,
@@ -56,6 +59,7 @@ allProducts = [
         oferta: "si",
         precio: 180,
         categoria: "llaveros",
+        imagenes: [],
     },
     {
         id: 5,
@@ -68,6 +72,7 @@ allProducts = [
         oferta: "si",
         precio: 130,
         categoria: "llaveros",
+        imagenes: [],
     },
     {
         id: 6,
@@ -80,6 +85,7 @@ allProducts = [
         oferta: "no",
         precio: 120,
         categoria: "llaveros",
+        imagenes: [],
     },
     {
         id: 7,
@@ -92,6 +98,7 @@ allProducts = [
         oferta: "si",
         precio: 160,
         categoria: "llaveros",
+        imagenes: [],
     },
     {
         id: 8,
@@ -103,6 +110,7 @@ allProducts = [
         oferta: "no",
         precio: 100,
         categoria: "llaveros",
+        imagenes: [],
     },
     {
         id: 9,
@@ -114,6 +122,7 @@ allProducts = [
         oferta: "si",
         precio: 90,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 10,
@@ -125,6 +134,7 @@ allProducts = [
         oferta: "no",
         precio: 110,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 11,
@@ -137,6 +147,7 @@ allProducts = [
         oferta: "si",
         precio: 200,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 12,
@@ -149,6 +160,7 @@ allProducts = [
         oferta: "no",
         precio: 140,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 13,
@@ -160,6 +172,7 @@ allProducts = [
         oferta: "si",
         precio: 160,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 14,
@@ -172,6 +185,7 @@ allProducts = [
         oferta: "no",
         precio: 130,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 15,
@@ -183,6 +197,7 @@ allProducts = [
         oferta: "si",
         precio: 170,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 16,
@@ -194,6 +209,7 @@ allProducts = [
         oferta: "no",
         precio: 150,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 17,
@@ -206,6 +222,7 @@ allProducts = [
         oferta: "si",
         precio: 140,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 18,
@@ -218,6 +235,7 @@ allProducts = [
         oferta: "no",
         precio: 120,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 19,
@@ -229,6 +247,7 @@ allProducts = [
         oferta: "si",
         precio: 150,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 20,
@@ -241,6 +260,7 @@ allProducts = [
         oferta: "no",
         precio: 160,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 21,
@@ -252,6 +272,7 @@ allProducts = [
         oferta: "si",
         precio: 200,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 22,
@@ -263,6 +284,7 @@ allProducts = [
         oferta: "no",
         precio: 140,
         categoria: "AdornoParaTortas",
+        imagenes: [],
     },
     {
         id: 23,
@@ -274,6 +296,7 @@ allProducts = [
         oferta: "si",
         precio: 150,
         categoria: "AdornoParaTortas",
+        imagenes: [],
     },
     {
         id: 24,
@@ -286,6 +309,7 @@ allProducts = [
         oferta: "no",
         precio: 170,
         categoria: "AdornoParaTortas",
+        imagenes: [],
     },
     {
         id: 25,
@@ -298,6 +322,7 @@ allProducts = [
         oferta: "si",
         precio: 160,
         categoria: "AdornoParaTortas",
+        imagenes: [],
     },
     {
         id: 26,
@@ -309,6 +334,7 @@ allProducts = [
         oferta: "no",
         precio: 120,
         categoria: "AdornoParaTortas",
+        imagenes: [],
     },
     {
         id: 27,
@@ -321,6 +347,7 @@ allProducts = [
         oferta: "si",
         precio: 180,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 28,
@@ -332,6 +359,7 @@ allProducts = [
         oferta: "no",
         precio: 150,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 29,
@@ -344,6 +372,7 @@ allProducts = [
         oferta: "si",
         precio: 190,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 30,
@@ -356,6 +385,7 @@ allProducts = [
         oferta: "no",
         precio: 110,
         categoria: "AdornoParaTortas",
+        imagenes: [],
     },
     {
         id: 31,
@@ -368,6 +398,7 @@ allProducts = [
         oferta: "si",
         precio: 130,
         categoria: "imanes",
+        imagenes: [],
     },
     {
         id: 32,
@@ -379,6 +410,7 @@ allProducts = [
         oferta: "no",
         precio: 140,
         categoria: "AdornoParaTortas",
+        imagenes: [],
     },
     {
         id: 33,
@@ -391,6 +423,7 @@ allProducts = [
         oferta: "si",
         precio: 170,
         categoria: "AdornoParaTortas",
+        imagenes: [],
     },
     {
         id: 34,
@@ -403,6 +436,7 @@ allProducts = [
         oferta: "no",
         precio: 180,
         categoria: "imanes",
+        imagenes: [],
     },
 ];
 
