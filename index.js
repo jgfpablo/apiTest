@@ -440,6 +440,19 @@ allProducts = [
     },
 ];
 
+app.get("/product", (req, res) => {
+    const id = req.query.id;
+
+    // Obtener una porción de los productos según los parámetros
+
+    const product = allProducts.filter((product) => product.id == id);
+    res.json({
+        message: "Productos paginados",
+        status: "success",
+        data: product,
+    });
+});
+
 app.get("/products", (req, res) => {
     // Obtener los parámetros de consulta (start y limit) de la URL
     const start = parseInt(req.query.start) || 0; // Índice inicial (default 0)
