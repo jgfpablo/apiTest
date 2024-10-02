@@ -445,7 +445,7 @@ app.get("/product", (req, res) => {
 
     // Obtener una porción de los productos según los parámetros
 
-    const product = allProducts.find((product) => product.id == id);
+    const product = allProducts.filter((product) => product.id == id);
     res.json({
         message: "Producto Encontrado",
         status: "success",
