@@ -447,7 +447,7 @@ app.get("/product", (req, res) => {
 
     const product = allProducts.find((product) => product.id == id);
     res.json({
-        message: "Productos paginados",
+        message: "Producto Encontrado",
         status: "success",
         data: product,
     });
