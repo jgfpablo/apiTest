@@ -10,6 +10,37 @@ app.use(express.json({ limit: "50mb" }));
 // Habilitar CORS para todas las solicitudes
 app.use(cors());
 
+categorias = [
+    {
+        id: 1,
+        nombre: "llaveros",
+    },
+    {
+        id: 2,
+        nombre: "imanes",
+    },
+    {
+        id: 3,
+        nombre: "Adornos para tortas",
+    },
+    {
+        id: 4,
+        nombre: "Adornos para cupcakes",
+    },
+    {
+        id: 5,
+        nombre: "Porta llaves",
+    },
+    {
+        id: 6,
+        nombre: "Adornos Navidad",
+    },
+    {
+        id: 7,
+        nombre: "Adornos año nuevo",
+    },
+];
+
 allProducts = [
     {
         id: 1,
@@ -155,7 +186,7 @@ allProducts = [
 app.get("/product", (req, res) => {
     const id = req.query.id;
 
-    // Obtener una porción de los productos según los parámetros
+    // busqueda por id
 
     const product = allProducts.find((product) => product.id == id);
     res.json({
@@ -233,6 +264,16 @@ app.post("/products", (req, res) => {
         message: "Producto agregado",
         status: "success",
         data: newProduct,
+    });
+});
+
+app.get("/categorias", (req, res) => {
+    res.json({
+        message: "Todas las categorias",
+        status: "success",
+        data: {
+            categorias,
+        },
     });
 });
 
