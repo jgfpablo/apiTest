@@ -13,31 +13,31 @@ app.use(cors());
 categorias = [
     {
         id: 1,
-        nombre: "llaveros",
+        nombre: "Llaveros",
     },
     {
         id: 2,
-        nombre: "imanes",
+        nombre: "Imanes",
     },
     {
         id: 3,
-        nombre: "Adornos para tortas",
+        nombre: "AdornosParaTortas",
     },
     {
         id: 4,
-        nombre: "Adornos para cupcakes",
+        nombre: "AdornosParaCupcakes",
     },
     {
         id: 5,
-        nombre: "Porta llaves",
+        nombre: "PortaLlaves",
     },
     {
         id: 6,
-        nombre: "Adornos Navidad",
+        nombre: "AdornosDeNavidad",
     },
     {
         id: 7,
-        nombre: "Adornos año nuevo",
+        nombre: "AdornosDeAñoNuevo",
     },
 ];
 
@@ -52,7 +52,7 @@ allProducts = [
         colores: ["rojo", "verde", "azul"],
         oferta: "si",
         precio: 200,
-        categoria: "llaveros",
+        categoria: "Llaveros",
         imagenes: [],
     },
     {
@@ -64,7 +64,7 @@ allProducts = [
         colores: ["rojo", "verde", "azul"],
         oferta: "no",
         precio: 0,
-        categoria: "imanes",
+        categoria: "Imanes",
         imagenes: [],
     },
     {
@@ -77,7 +77,7 @@ allProducts = [
         colores: ["naranja", "rojo", "amarillo"],
         oferta: "no",
         precio: 150,
-        categoria: "llaveros",
+        categoria: "Llaveros",
         imagenes: [],
     },
     {
@@ -90,7 +90,7 @@ allProducts = [
         colores: ["azul", "marrón", "blanco"],
         oferta: "si",
         precio: 180,
-        categoria: "llaveros",
+        categoria: "Llaveros",
         imagenes: [],
     },
     {
@@ -103,7 +103,7 @@ allProducts = [
         colores: ["rosa", "blanco", "negro"],
         oferta: "si",
         precio: 130,
-        categoria: "llaveros",
+        categoria: "Llaveros",
         imagenes: [],
     },
     {
@@ -116,7 +116,7 @@ allProducts = [
         colores: ["beige", "negro", "marrón"],
         oferta: "no",
         precio: 120,
-        categoria: "llaveros",
+        categoria: "Llaveros",
         imagenes: [],
     },
     {
@@ -129,7 +129,7 @@ allProducts = [
         colores: ["amarillo", "blanco", "negro"],
         oferta: "si",
         precio: 160,
-        categoria: "llaveros",
+        categoria: "Llaveros",
         imagenes: [],
     },
     {
@@ -141,7 +141,7 @@ allProducts = [
         colores: ["marrón", "beige", "blanco"],
         oferta: "no",
         precio: 100,
-        categoria: "llaveros",
+        categoria: "Llaveros",
         imagenes: [],
     },
     {
@@ -153,7 +153,7 @@ allProducts = [
         colores: ["morado", "blanco", "rosa"],
         oferta: "si",
         precio: 90,
-        categoria: "imanes",
+        categoria: "Imanes",
         imagenes: [],
     },
     {
@@ -165,7 +165,7 @@ allProducts = [
         colores: ["morado", "amarillo", "negro"],
         oferta: "no",
         precio: 110,
-        categoria: "imanes",
+        categoria: "Imanes",
         imagenes: [],
     },
     {
@@ -178,7 +178,7 @@ allProducts = [
         colores: ["amarillo", "negro", "rojo"],
         oferta: "si",
         precio: 200,
-        categoria: "imanes",
+        categoria: "Imanes",
         imagenes: [],
     },
 ];
